@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<document>
+  <host>localhost</host>
+  <dbname>phpchat</dbname>
+  <user>root</user>
+  <password></password>
+  <chatTable>chat</chatTable>
+</document>

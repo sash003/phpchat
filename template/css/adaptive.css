@@ -1,0 +1,80 @@
+
+
+@media screen and (max-width:1024px) {
+  
+  
+}
+
+@media screen and (max-width:800px) {
+  #nick{
+    width: 33%;
+  }
+  body *{
+    font-size: 17px;
+  }
+  .nick{
+    font-size: 19px;
+  }
+  #chat{
+    margin: 11px auto;
+  }
+  #form{
+    margin: 22px auto;
+    margin-top: 33px;
+  }
+  #keydown{
+    font-size: 11px;
+  }
+  #users ul li img{
+    top: 2px;
+  }
+  #Annulment{
+    top: 7px;
+    height: 26px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  
+  #message_text{
+    height: 77px;
+  }
+  #message_btn{
+    height: 44px;
+  }
+  #nick{
+    width: 37%;
+  }
+  body *{
+    font-size: 14px;
+  }
+  .time{
+    font-size: 7px;
+  }
+  .nick{
+    font-size: 16px;
+  }
+  .code{
+    height: 17px;
+    font-size: 15px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  #message_text{
+    height: 55px;
+  }
+  #message_btn{
+    height: 23px;
+  }
+  .nick{
+    font-size: 13px;
+  }
+  #nick{
+    
+  }
+  body *{
+    font-size: 12px;
+  }
+}

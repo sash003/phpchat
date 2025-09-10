@@ -1,0 +1,17 @@
+
+AddDefaultCharset utf-8
+# запрещаем кэширование:
+<filesMatch "\.(pl|php|html|less|css|cgi|js|spl|scgi|fcgi|jpg|jpeg|png|gif|mp3|wav)$">
+  FileETag None
+  <ifModule mod_headers.c>
+     Header unset ETag
+     Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+     Header set Pragma "no-cache"
+     Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+  </ifModule>
+</filesMatch>
+
+Options All -ExecCGI -Indexes -Includes +FollowSymLinks
+
+php_value upload_max_filesize 10M
+php_value post_max_filesize 20M
